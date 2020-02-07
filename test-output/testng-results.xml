@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14863" started-at="2019-01-18T12:41:40Z" finished-at="2019-01-18T12:41:54Z">
+  <suite name="Default suite" duration-ms="12071" started-at="2020-02-06T11:26:29Z" finished-at="2020-02-06T11:26:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14863" started-at="2019-01-18T12:41:40Z" finished-at="2019-01-18T12:41:54Z">
+    <test name="Default test" duration-ms="12071" started-at="2020-02-06T11:26:29Z" finished-at="2020-02-06T11:26:41Z">
       <class name="FirstTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:FirstTest@4501b7af]" name="setupTest" is-config="true" duration-ms="12500" started-at="2019-01-18T12:41:40Z" finished-at="2019-01-18T12:41:52Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:FirstTest@29774679]" name="setupTest" is-config="true" duration-ms="11090" started-at="2020-02-06T11:26:29Z" finished-at="2020-02-06T11:26:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:FirstTest@4501b7af]" name="firstTest" duration-ms="1540" started-at="2019-01-18T12:41:52Z" finished-at="2019-01-18T12:41:54Z">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:FirstTest@29774679]" name="firstTest" duration-ms="13" started-at="2020-02-06T11:26:40Z" finished-at="2020-02-06T11:26:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="teardownTest()[pri:0, instance:FirstTest@4501b7af]" name="teardownTest" is-config="true" duration-ms="804" started-at="2019-01-18T12:41:54Z" finished-at="2019-01-18T12:41:54Z">
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:FirstTest@29774679]" name="teardownTest" is-config="true" duration-ms="945" started-at="2020-02-06T11:26:40Z" finished-at="2020-02-06T11:26:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->

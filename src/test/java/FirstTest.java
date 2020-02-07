@@ -1,3 +1,10 @@
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -5,11 +12,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-/*****************************************************************************
- * Author:      Onur Baskirt
- * Description: This is the first Selenium TestNG test.
- *              It opens swtestacademy homepage and prints and checks its title.
-*******************************************************************************/
 
 public class FirstTest {
 
@@ -30,6 +32,16 @@ public class FirstTest {
 
         //Go to www.swtestacademy.com
         driver.navigate().to(testURL);
+        TakesScreenshot TakesScreenshot=(TakesScreenshot)driver;
+        File fs=TakesScreenshot.getScreenshotAs(OutputType.FILE);
+        try {
+			FileUtils.copyFile(fs, new File("./screen/sag.png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		
+		}
+		
     }
 
     //-----------------------------------Tests-----------------------------------
