@@ -1,4 +1,3 @@
-import org.openqa.selenium.interactions.Action;		
 import org.openqa.selenium.interactions.Actions;		
 import org.openqa.selenium.By;		
 import org.openqa.selenium.WebDriver;		
