@@ -1,38 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15104" started-at="2020-02-07T10:59:09Z" finished-at="2020-02-07T10:59:24Z">
+  <suite name="Default suite" duration-ms="28959" started-at="2020-02-10T05:41:17Z" finished-at="2020-02-10T05:41:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15104" started-at="2020-02-07T10:59:09Z" finished-at="2020-02-07T10:59:24Z">
-      <class name="JavaScript_Test">
-        <test-method status="FAIL" signature="Login()[pri:0, instance:JavaScript_Test@59906517]" name="Login" duration-ms="15079" started-at="2020-02-07T10:59:09Z" finished-at="2020-02-07T10:59:24Z">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
+    <test name="Default test" duration-ms="28959" started-at="2020-02-10T05:41:17Z" finished-at="2020-02-10T05:41:46Z">
+      <class name="Extent4Report">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:Extent4Report@757942a1]" name="setExtent" is-config="true" duration-ms="149" started-at="2020-02-10T05:41:17Z" finished-at="2020-02-10T05:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Extent4Report@757942a1]" name="setup" is-config="true" duration-ms="10613" started-at="2020-02-10T05:41:17Z" finished-at="2020-02-10T05:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="noCommerceLoginTest()[pri:0, instance:Extent4Report@757942a1]" name="noCommerceLoginTest" duration-ms="10" started-at="2020-02-10T05:41:27Z" finished-at="2020-02-10T05:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noCommerceLoginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Extent4Report@757942a1]" name="tearDown" is-config="true" duration-ms="1013" started-at="2020-02-10T05:41:28Z" finished-at="2020-02-10T05:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=noCommerceLoginTest status=SUCCESS method=Extent4Report.noCommerceLoginTest()[pri:0, instance:Extent4Report@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Extent4Report@757942a1]" name="setup" is-config="true" duration-ms="7138" started-at="2020-02-10T05:41:29Z" finished-at="2020-02-10T05:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="noCommerceLogoTest()[pri:0, instance:Extent4Report@757942a1]" name="noCommerceLogoTest" duration-ms="57" started-at="2020-02-10T05:41:36Z" finished-at="2020-02-10T05:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noCommerceLogoTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Extent4Report@757942a1]" name="tearDown" is-config="true" duration-ms="867" started-at="2020-02-10T05:41:36Z" finished-at="2020-02-10T05:41:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=noCommerceLogoTest status=SUCCESS method=Extent4Report.noCommerceLogoTest()[pri:0, instance:Extent4Report@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Extent4Report@757942a1]" name="setup" is-config="true" duration-ms="7503" started-at="2020-02-10T05:41:37Z" finished-at="2020-02-10T05:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="noCommerceTitleTest()[pri:0, instance:Extent4Report@757942a1]" name="noCommerceTitleTest" duration-ms="17" started-at="2020-02-10T05:41:44Z" finished-at="2020-02-10T05:41:44Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=79.0.3945.130): User or Password is not valid
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WINVA185060-0WA', ip: '172.20.109.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Va185060\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfca071b59dca4fdd1724258b8963d9]]>
+              <![CDATA[expected [eCommerce demo store] but found [nopCommerce demo store]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=79.0.3945.130): User or Password is not valid
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WINVA185060-0WA', ip: '172.20.109.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Va185060\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0dfca071b59dca4fdd1724258b8963d9
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
-at JavaScript_Test.Login(JavaScript_Test.java:34)
+              <![CDATA[java.lang.AssertionError: expected [eCommerce demo store] but found [nopCommerce demo store]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Extent4Report.noCommerceTitleTest(Extent4Report.java:61)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -60,11 +94,26 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-      </class> <!-- JavaScript_Test -->
+        </test-method> <!-- noCommerceTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Extent4Report@757942a1]" name="tearDown" is-config="true" duration-ms="1290" started-at="2020-02-10T05:41:44Z" finished-at="2020-02-10T05:41:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=noCommerceTitleTest status=FAILURE method=Extent4Report.noCommerceTitleTest()[pri:0, instance:Extent4Report@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:Extent4Report@757942a1]" name="endReport" is-config="true" duration-ms="275" started-at="2020-02-10T05:41:45Z" finished-at="2020-02-10T05:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Extent4Report -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
