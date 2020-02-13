@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="AllTestsSuite">
-<test name="My First Selenium TestNG Test">
+<suite name="AllTestsSuite" thread-count="3" parallel="methods">
+<test name="Sagar test cases">
     <classes>
-        <class name="FirstTest"/>
-        <class name="DockerTest"/>
+        <class name="com.sag.testng.Parallel_Check"/>
+        
     </classes>
 </test>
 </suite>
